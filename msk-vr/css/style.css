@@ -1,0 +1,54 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  float: right;
+}
+.image {
+  width: 500px;
+}
+.button_center {
+  display: table;
+  margin: 0 auto;
+}
+.buttonSize{
+  width:155px;
+  height:145px;
+  border-radius:50%;
+  opacity: .3;
+  border:none;
+  font-size:60px;
+  transition-duration:.4s;
+  color:#4db8ff;
+}
+
+.buttonSize:hover{
+  
+  opacity:.8;
+}
+
+.buttonSize:focus{
+  outline-style:none;
+}
+/*how to from w3schools.com*/
+html,
+body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#leftButton{
+  position: absolute;
+  top: 37%;
+  left: 0%;
+}
+#rightButton{
+  position: absolute;
+  top: 37%;
+  left:87%;
+}
+
